@@ -1,0 +1,26 @@
+body {
+  background: lightblue;
+  overflow: hidden;
+}
+#cloudbox, #cloudbox2 {
+  --cloud-color: white;
+  overflow: hidden;
+  filter:url('#fancy-goo');
+  position: absolute;
+  top: 0;
+  left: -25%;
+  bottom: 0;
+  width: 150%;
+}
+
+#cloudbox, #cloudbox2 {
+  span {
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 20px;
+    background: var(--cloud-color);
+    border-radius: 10px;
+    transform-origin: "50% 50%";
+  }
+}

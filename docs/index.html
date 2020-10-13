@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>kibibit - Flat Clouds</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- LIGHT GREY CLOUDS -->
+<div id="cloudbox2" style="--cloud-color: lightgrey">
+</div>
+<!-- WHITE CLOUDS -->
+<div id="cloudbox">
+</div>
+
+
+<svg>
+  <defs>
+    	  	<filter id="fancy-goo">
+	      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+	      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+	      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+	    </filter>
+  </defs>
+</svg>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
