@@ -1,9 +1,9 @@
 {
-  "name": "random-gooey-gsap-clouds",
-  "version": "2020.9.2-21.58.17",
+  "name": "@kibibit/flat-clouds",
+  "version": "0.0.0",
   "private": true,
-  "license": "UNLICENSED",
-  "homepage": "https://codepen.io/neilkalman/pen/a65b21213b4c0f9bab2193bb05817497",
+  "license": "MIT",
+  "homepage": "http://kibibit.io/flat-clouds",
   "scripts": {
     "build": "gulp -f ./build/gulpfile.js --cwd ./ --continue",
     "serve": "gulp serve -f ./build/gulpfile.js --cwd ./ --continue",
